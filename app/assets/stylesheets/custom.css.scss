@@ -101,13 +101,27 @@
 }
 
 body{
-  background-color: #eeeeee;
+  background-image: asset-url('background.jpg');
 }
 
 .container {
   .navbar-brand{
-    font-size: x-large;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     color: rgba(30,5,145,0.99);
     font-weight: bolder;
   }
+}
+.no-side-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
 }
