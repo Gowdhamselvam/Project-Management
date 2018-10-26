@@ -93,7 +93,7 @@
 }
 
 .sign-up {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .extra {
@@ -111,6 +111,7 @@ body{
     text-transform: uppercase;
     color: rgba(30,5,145,0.99);
     font-weight: bolder;
+    padding-bottom: 5px;
   }
 }
 .no-side-padding {
@@ -124,4 +125,13 @@ body{
 
 .no-right-padding {
   padding-right: 0 !important;
+}
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+  }
+  a.main-link:hover {
+    background: none;
+  }
 }
